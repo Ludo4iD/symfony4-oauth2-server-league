@@ -1,7 +1,7 @@
 security:
     providers:
         database:
-            id: App\Application\Provider\UserProvider
+            id: App\Security\Provider\UserProvider
     encoders:
         App\Domain\Model\User: argon21
     firewalls:
